@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.search-container input{
+    outline: none;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-style: italic;
+    font-size: 15px;
+    width: 61.3rem;
+}

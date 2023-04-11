@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding:  10px 130px 50px 130px;
+    background-image: linear-gradient(to bottom, rgb(236, 82, 165), rgb(211, 211, 77));
+    max-width: 1440px;
+}
+
+.main-body{
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.main{
+    display: flex;
+    background: #fff;
+    width: fit-content;
+    padding: 8px 210px 10px 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+.details{
+    padding-left: 20px;
+    line-height: 23px;
+}
+span{
+    padding-right: 7px;
+    font-weight: bold;
+}
