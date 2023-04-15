@@ -30,3 +30,22 @@ span{
     padding-right: 7px;
     font-weight: bold;
 }
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        padding:  10px 30px 50px 20px;
+    }
+    .main-body{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .main{
+        width: fit-content;
+        padding-right: 90px;
+    }
+}

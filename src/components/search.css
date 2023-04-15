@@ -12,3 +12,16 @@
     font-size: 15px;
     width: 61.3rem;
 }
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .search-container input{
+        /* max-width: 97%; */
+        width: fit-content;
+        padding-right: 190px;
+    }
+}
